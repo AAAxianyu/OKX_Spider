@@ -1,0 +1,6 @@
+{
+    "api_key": "",
+    "data_file": "okx_out/history/XXXX.json",
+    "model": "deepseek-chat",
+    "result_dir": "results"
+  }
