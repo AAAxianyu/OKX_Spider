@@ -240,7 +240,14 @@ class OkxPublicWSClient:
 # ---------------- 主程序 ----------------
 
 async def main():
-    symbols = ["AVAX-USDT"]
+    symbols = [
+    "BTC-USDT", "ETH-USDT", "BNB-USDT", "SOL-USDT", "XRP-USDT", "DOGE-USDT", "ADA-USDT", "AVAX-USDT",
+    "DOT-USDT", "TRX-USDT", "MATIC-USDT", "LTC-USDT", "BCH-USDT", "ETC-USDT", "SHIB-USDT", "LINK-USDT",
+    "TON-USDT", "ICP-USDT", "FIL-USDT", "APT-USDT", "ARB-USDT", "OP-USDT", "SUI-USDT", "INJ-USDT",
+    "RNDR-USDT", "NEAR-USDT", "STX-USDT", "WLD-USDT", "PEPE-USDT", "UNI-USDT", "LDO-USDT", "GMX-USDT",
+    "DYDX-USDT", "FTM-USDT", "IMX-USDT", "ALGO-USDT", "HBAR-USDT", "VET-USDT", "GRT-USDT", "MANA-USDT"
+]
+
     channels = ["tickers", "trades", "books", "candle1m"]
 
     # 先用 REST 拉一次全量历史数据
